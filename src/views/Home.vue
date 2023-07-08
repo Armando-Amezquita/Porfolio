@@ -100,8 +100,9 @@ header{
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 28rem;
-  height: 40rem;
+  width: auto;
+  height: 90%;
+  padding: 1.5rem;
   border-top-left-radius: 47%;
   border-top-right-radius: 47%;
   /* background: #16191D; */
@@ -129,7 +130,7 @@ header{
   margin-top: .5rem;
 }
 .description--title{
-  font-size: 2.2rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: aliceblue;
 }
@@ -206,7 +207,7 @@ header{
   height: 4rem;
   width: 12rem;
   margin-left: 4rem;
-  border-radius: .5rem;
+  border-radius: 2rem;
   border: none;
   color: white;
   font-size: 1.7rem;
