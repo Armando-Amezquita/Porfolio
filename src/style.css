@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #02015B;
+  --color-secondary: #21013A;
+  --color-button-primary: #732E90;
+  --color-green: #0A9277;
+  --color-blue: #12438B;
+  --color-tiki: #090011;
+  --white: #949499;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
