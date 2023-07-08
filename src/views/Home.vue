@@ -38,13 +38,13 @@ function clickd(e){
           <p class="description--title">Armando Amezquita</p>
           <ul class="desciption--media">
             <li>
-              <img class="icon-media" src="../assets/icons/1147408_address book_circle_contacts_email_gmail_icon.png" alt="">
+              <img class="icon-media" src="../assets/icons/2024667_email_emails_mail_message_icon.png" alt="">
             </li>
             <li>
-              <img class="icon-media" src="../assets/icons/350988_linkedin_logo_icon.png" alt="">
+              <img class="icon-media" src="../assets/icons/5279114_linkedin_network_social network_linkedin logo_icon.png" alt="">
             </li>
             <li>
-              <img class="icon-media" src="../assets/icons/9034333_github_logo_icon.png" alt="">
+              <img class="icon-media" src="../assets/icons/107161_circle_github_icon.png" alt="">
             </li>
           </ul>
         </div>
@@ -118,7 +118,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 78%;
+  height: 80%;
   width: 100%;
   background-color: rgba(37, 42, 48, 0.4); 
   /* background-color: #252A30; */
