@@ -37,11 +37,15 @@ function clickd(e){
         <div class="header__container--description">
           <p class="description--title">Armando Amezquita</p>
           <ul class="desciption--media">
-            <li>Redes</li>
-            <li>Redes</li>
-            <li>Redes</li>
-            <li>Redes</li>
-            <li>Redes</li>
+            <li>
+              <img class="icon-media" src="../assets/icons/1147408_address book_circle_contacts_email_gmail_icon.png" alt="">
+            </li>
+            <li>
+              <img class="icon-media" src="../assets/icons/350988_linkedin_logo_icon.png" alt="">
+            </li>
+            <li>
+              <img class="icon-media" src="../assets/icons/9034333_github_logo_icon.png" alt="">
+            </li>
           </ul>
         </div>
       </section>
@@ -114,7 +118,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 78%;
   width: 100%;
   background-color: rgba(37, 42, 48, 0.4); 
   /* background-color: #252A30; */
@@ -261,6 +265,10 @@ header{
     height: 200px;
     opacity: 0;
   }
+}
+.icon-media{
+  width: 4rem;
+  height: 4rem;
 }
 /* .radar-button {
   position: relative;
