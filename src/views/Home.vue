@@ -1,4 +1,6 @@
 <script setup>
+import NavBar from '../components/NavBar.vue';
+
 function clickd(e){
   e.preventDefault()
   console.log('click')
@@ -7,6 +9,8 @@ function clickd(e){
 </script>
 
 <template>
+  <div class="container__app">
+  <NavBar />
   <header>
     <div class="header__subcontainer">
     <div class="header__container">
@@ -58,10 +62,13 @@ function clickd(e){
   <footer>
 
   </footer>
-
+  </div>
 </template>
 
 <style scoped>
+.container__app{
+  position: relative;
+}
 header{
   display: flex;
   justify-content: center;
@@ -71,7 +78,7 @@ header{
   /* background: -webkit-linear-gradient(0, #050011, #02015B 80%); */
   background-image: url('../assets/images/4482.jpg');   
   background-image: url('../assets/images/astronauta-explora-espacio-exterior-oscuro-generativo-al.jpg');   
-  background-image: url('../assets/images/cielo-estrellado.jpg');   
+  /* background-image: url('../assets/images/cielo-estrellado.jpg');    */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,8 +94,8 @@ header{
   width: 90%;
   height: 80%;
   border-radius: 1rem;
-  background-color: rgba(22, 25, 25, 0.4);
-  box-shadow: 0 0 10px #00ff95, 0 0 20px #12438B;
+  /* background-color: rgba(22, 25, 25, 0.4); */
+  /* box-shadow: 0 0 10px #00ff95, 0 0 20px #12438B; */
 
 }
 .header__subcontainer{
@@ -377,5 +384,9 @@ header{
   100% {
     transform: translate(-50%, -50%) rotate(360deg) translateX(220px) rotate(-360deg);
   }
+}
+/* ____________ */
+main{
+  height: 100vh;
 }
 </style>
