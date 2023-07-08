@@ -31,7 +31,7 @@ function clickd(e){
       <section class="header__container--rigth">
         <div class="header__container--rigthPicture">
           <div class="container__picture neon-container">
-            <img class="picture" src="../assets/images/pexels-sofía-morales-14567680.jpg" alt="">
+            <img class="picture" src="../assets/images/astronauta-explora-espacio-exterior-oscuro-generativo-al.jpg" alt="">
           </div>
         </div>
         <div class="header__container--description">
@@ -82,7 +82,6 @@ header{
   align-items: center;
   width: 90%;
   height: 80%;
-  border: 1px solid #12438B;
   border-radius: 1rem;
   background-color: rgba(22, 25, 25, 0.4);
   box-shadow: 0 0 10px #00ff95, 0 0 20px #12438B;
@@ -187,6 +186,7 @@ header{
   text-shadow: 0 0 10px #00ff95, 0 0 40px #00ff95;
 }
 .left__description{
+  margin: 2rem 0;
   color: aliceblue;
   font-size: 3rem;
 }
@@ -204,13 +204,14 @@ header{
 
 .contact{
   height: 4rem;
-  width: 10rem;
+  width: 12rem;
   margin-left: 4rem;
   border-radius: .5rem;
   border: none;
   color: white;
-  font-size: 1.5rem;
-  background: -webkit-linear-gradient(0, #005, #12438B 80%); 
+  font-size: 1.7rem;
+  background: transparent;
+  box-shadow: 0 0 10px #00ff95, 0 0 10px #12438B; 
 }
 
 .radar-button {
@@ -220,7 +221,8 @@ header{
   border-radius: 50%;
   color: white;
   padding: 15px 15px;
-  background: -webkit-linear-gradient(0, #005, #12438B 80%);
+  background-color: transparent;
+  box-shadow: 0 0 10px #00ff95, 0 0 10px #12438B;
   /* background-color: #02015B; */
   border: none;
   font-size: 2rem;
@@ -232,7 +234,7 @@ header{
 .radar-circle {
   position: absolute;
   top: 60%;
-  left: 25%;
+  left: 23%;
   transform: translate(-50%, -50%);
   width: 0;
   height: 0;
