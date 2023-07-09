@@ -1,5 +1,6 @@
 <script setup>
 import NavBar from '../components/NavBar.vue';
+import Main from '../components/Main.vue';
 
 function clickd(e){
   e.preventDefault()
@@ -13,52 +14,43 @@ function clickd(e){
   <NavBar />
   <header>
     <div class="header__subcontainer">
-    <div class="header__container">
-      <!-- <div class="planet-container">
-        <div class="planet orbit1"></div>
-        <div class="planet orbit2"></div>
-        <div class="planet orbit3"></div>
-        <div class="planet-center"></div>
-      </div> -->
-    
-      <section class="header__container--left">
-        <h1 class="left__title" data-text="de">Desarrollador de </h1>
-        <p class="left__title" data-text="ck">software Full-Stack</p>
-        <span class="left__description">Creando el futuro</span>
-        <div class="radar-container">
-          <button @click="clickd" class="radar-button">Cv</button>
-          <button class="contact">Contact me</button>
-          <div class="radar-circle"></div>
-        </div>
-      </section>
-
-      <section class="header__container--rigth">
-        <div class="header__container--rigthPicture">
-          <div class="container__picture neon-container">
-            <img class="picture" src="../assets/images/astronauta-explora-espacio-exterior-oscuro-generativo-al.jpg" alt="">
+      <div class="header__container">    
+        <section class="header__container--left">
+          <h1 class="left__title" data-text="de">Desarrollador de </h1>
+          <p class="left__title" data-text="ck">software Full-Stack</p>
+          <span class="left__description">Creando el futuro</span>
+          <div class="radar-container">
+            <button @click="clickd" class="radar-button">Cv</button>
+            <button class="contact">Contact me</button>
+            <div class="radar-circle"></div>
           </div>
-        </div>
-        <div class="header__container--description">
-          <p class="description--title">Armando Amezquita</p>
-          <ul class="desciption--media">
-            <li>
-              <img class="icon-media" src="../assets/icons/2024667_email_emails_mail_message_icon.png" alt="">
-            </li>
-            <li>
-              <img class="icon-media" src="../assets/icons/5279114_linkedin_network_social network_linkedin logo_icon.png" alt="">
-            </li>
-            <li>
-              <img class="icon-media" src="../assets/icons/107161_circle_github_icon.png" alt="">
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
+        </section>
+
+        <section class="header__container--rigth">
+          <div class="header__container--rigthPicture">
+            <div class="container__picture neon-container">
+              <img class="picture" src="../assets/images/astronauta-explora-espacio-exterior-oscuro-generativo-al.jpg" alt="">
+            </div>
+          </div>
+          <div class="header__container--description">
+            <p class="description--title">Armando Amezquita</p>
+            <ul class="desciption--media">
+              <li>
+                <img class="icon-media" src="../assets/icons/2024667_email_emails_mail_message_icon.png" alt="">
+              </li>
+              <li>
+                <img class="icon-media" src="../assets/icons/5279114_linkedin_network_social network_linkedin logo_icon.png" alt="">
+              </li>
+              <li>
+                <img class="icon-media" src="../assets/icons/107161_circle_github_icon.png" alt="">
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </div>
   </header>
-  <main>
-
-  </main>
+  <Main />
   <footer>
 
   </footer>
@@ -104,7 +96,7 @@ header{
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: rgba(22, 25, 29, 0.5);
+  background-color: rgba(22, 25, 29, 0.8);
 
 }
 .header__container--rigth{
@@ -246,7 +238,7 @@ header{
 .radar-circle {
   position: absolute;
   top: 60%;
-  left: 23%;
+  left: 26%;
   transform: translate(-50%, -50%);
   width: 0;
   height: 0;
@@ -386,7 +378,4 @@ header{
   }
 }
 /* ____________ */
-main{
-  height: 100vh;
-}
 </style>

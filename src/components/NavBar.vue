@@ -42,7 +42,8 @@ function showMenuToggle(){
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 3px 8px #00ff95, 0px 3px 8px #12438B;
+    background-color: rgba(25, 25, 25, 1);
+    box-shadow: 0px 1px 1px #00ff95;
     border-bottom-right-radius: 4rem;
     border-top-right-radius: 4rem;
   }
