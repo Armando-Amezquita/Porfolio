@@ -1,5 +1,6 @@
 <script setup>
 import ThreeExample from './ThreeExample.vue';
+import Tecnologies from './Tecnologies.vue'
 import { ref } from 'vue';
 const bollets = [
       { id: 1, value: 'bollet-1', checked: ref(false) },
@@ -30,6 +31,7 @@ function changeView(bool){
             <h2>Mundo como ets</h2>
         </section>
     </div>
+    <Tecnologies />
 </template>
 <style>
 .main__container{
