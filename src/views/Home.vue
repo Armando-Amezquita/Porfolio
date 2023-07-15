@@ -57,7 +57,8 @@ function clickd(e){
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+
 .container__app{
   position: relative;
 }
@@ -86,6 +87,9 @@ header{
   width: 90%;
   height: 80%;
   border-radius: 1rem;
+  
+  backdrop-filter: blur(3px);
+  // background-color: rgba(255, 255, 255, 0); /* Casi blanco transparente */
   /* background-color: rgba(22, 25, 25, 0.4); */
   /* box-shadow: 0 0 10px #00ff95, 0 0 20px #12438B; */
 
@@ -98,6 +102,7 @@ header{
   height: 100vh;
   background-color: rgba(22, 25, 29, 0.8);
 
+  // background: $primary-color;
 }
 .header__container--rigth{
   display: flex;
