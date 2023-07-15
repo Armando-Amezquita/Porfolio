@@ -5,6 +5,8 @@
   --color-green: #0A9277;
   --color-blue: #12438B;
   --color-tiki: #090011;
+  --buton: #622F7A;
+  --buton2: #360A65;
   --white: #949499;
 }
 
@@ -17,4 +19,14 @@
 html{
   font-size: 62.5%;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
 }
