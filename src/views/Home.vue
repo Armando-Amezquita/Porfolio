@@ -114,7 +114,7 @@ header{
   border-top-left-radius: 47%;
   border-top-right-radius: 47%;
   /* background: #16191D; */
-  background-color: rgba(22, 25, 29, 0.6);
+  // background-color: rgba(22, 25, 29, 0.6);
   
   /* box-shadow: 0 0 10px #0A9277, 0 0 20px #0A9277, 0 0 30px #0A9277; */
 }

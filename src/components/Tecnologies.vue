@@ -179,6 +179,9 @@ onMounted(() => {
   text-shadow: 3px 3px 5px #f0dc17;
   transform: rotateX(30deg) rotateY(20deg);
 }
+.one{
+    animation: heartbeat 3s infinite;
+}
 .two{
     right: 22rem;
     top: 10rem;
@@ -190,12 +193,12 @@ onMounted(() => {
 .four{
     left: 12rem;
     top: 25rem;
-    animation: bubbleAnimation3 2s ease-in-out forwards ;
+    /* animation: bubbleAnimation3 2s ease-in-out forwards ; */
 }
 .five{
     right: 12rem;
     top: 25rem;
-    animation: bubbleAnimation2 2s ease-in-out forwards ;    
+    /* animation: bubbleAnimation2 2s ease-in-out forwards ;     */
 }
 .six{
     right: 20rem;

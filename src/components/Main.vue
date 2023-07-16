@@ -20,15 +20,22 @@ function changeView(bool){
 </script>
 <template>
     <div class="main__container">
-        <section class="main__left">
+        <section class="main_left">
+            <img class="main__image" src="../assets/images/about3.jpg" alt="">
+        </section>
+        <!-- <section class="main__left">
                 <div class="box">
                     <div class="ribbon">
                         Premio
                     </div>
                 </div>
-        </section>
-        <section class="main__rigth">
-            <h2>Mundo como ets</h2>
+        </section> -->
+        <section class="main__about">
+            <h2 class="description__about--title">Hi there!</h2>
+            <p class="description__about--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, explicabo. Dolorem expedita voluptates quos est quidem. Aspernatur natus distinctio doloremque minima officia magni maiores, suscipit accusamus veritatis quis omnis? Veritatis!</p>
+            <button class="description__about--contact">
+                Contactame
+            </button>
         </section>
     </div>
     <Tecnologies />
@@ -40,8 +47,13 @@ function changeView(bool){
     align-items: center;
     width: 100%;
     height: 100vh;
+    padding: 2rem;
   /* background: -webkit-linear-gradient(45deg, #110F2A, #12438B 100%); */
-    background: #110F2A;
+    background: #fff;
+}
+.main__image{
+    width: 50rem;
+    height: 50rem;
 }
 .box {
     position: absolute;
@@ -140,12 +152,36 @@ input[type="checkbox"]:checked::before {
     opacity: 1;
 }
 
-.main__rigth{
+.main__about{
     display: flex;
+    flex-direction: column;
     width: 50%;
-    background-color: aqua;
+    height: 80%;
 }
 
+.description__about--title{
+    margin-bottom: 2rem;
+    /* border-bottom: 1px solid #28AFFA; */
+    
+    font-size: 3.5rem;
+    text-shadow: 0 2px 5px #00DFC2, 0 2px 5px #00DFC2, 0 2px 5px #00DFC2;
+    color: #fff;
+}
+.description__about--description{
+    font-size: 2rem;
+}
+.description__about--contact{
+    height: 4rem;
+    width: 12rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.7rem;
+    color: #110F2A;
+    background: transparent;
+    box-shadow: 0 0 10px #00DFC2;
+
+}
 
 .hexagono{
   position: relative;
