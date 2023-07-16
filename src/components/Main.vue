@@ -1,6 +1,7 @@
 <script setup>
 import ThreeExample from './ThreeExample.vue';
 import Tecnologies from './Tecnologies.vue'
+import Projects from './Projects.vue'
 import { ref } from 'vue';
 const bollets = [
       { id: 1, value: 'bollet-1', checked: ref(false) },
@@ -39,9 +40,11 @@ function changeView(bool){
         </section>
     </div>
     <Tecnologies />
+    <Projects />
 </template>
 <style>
 .main__container{
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
