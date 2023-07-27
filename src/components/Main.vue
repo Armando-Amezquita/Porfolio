@@ -2,6 +2,7 @@
 import ThreeExample from './ThreeExample.vue';
 import Tecnologies from './Tecnologies.vue'
 import Projects from './Projects.vue'
+import Contact from './Contact.vue';
 import { ref } from 'vue';
 const bollets = [
       { id: 1, value: 'bollet-1', checked: ref(false) },
@@ -41,6 +42,7 @@ function changeView(bool){
     </div>
     <Tecnologies />
     <Projects />
+    <Contact />
 </template>
 <style>
 .main__container{

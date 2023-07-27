@@ -44,7 +44,7 @@ onMounted(() => {
        <div class="tecnology two">
             <div class="tecnology__subcontainer">
                 <div class="container__color vue">
-                    <img class="icons__tecnnologies" src="../assets/icons/nodejs.png" alt="">
+                    <img class="icons__tecnnologies" src="../assets/icons/nodejs1.png" alt="">
                 </div>
             </div>
         </div>
