@@ -25,7 +25,7 @@ function submitForm() {
                     <input placeholder="Email" class="contact__input" type="email" id="email" v-model="form.email" required>
                 </div>
                 <div class="form__label">
-                    <textarea placeholder="Descripcion" class="contact__input" id="message" v-model="form.message" required></textarea>
+                    <textarea placeholder="Descripcion" class="contact__input description" id="message" v-model="form.message" required></textarea>
                 </div>
                 <button class="form__button" type="submit">Enviar</button>
             </form>
@@ -118,6 +118,11 @@ function submitForm() {
     font-weight: bold;
     /* text-shadow: 0 0 10px #00ff95, 0 0 10px #12438B; */
     box-shadow: 0 0 10px #00ff95, 0 0 10px #12438B;
+}
+
+.description{
+    max-width: 100%;
+    max-height: 6rem;
 }
 
 </style>
