@@ -2,6 +2,7 @@
 import Projects from './Projects.vue'
 import Projects2 from './Projects2.vue';
 import Contact from './Contact.vue';
+import Projects3 from './Projects3.vue';
 
 </script>
 <template>
@@ -22,7 +23,8 @@ import Contact from './Contact.vue';
 
     <!-- <Tecnologies /> -->
     <Projects2 />
-    <Projects />
+    <Projects3 />
+    <!-- <Projects /> -->
     <Contact />
 </template>
 <style>
