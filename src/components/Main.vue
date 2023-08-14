@@ -1,36 +1,14 @@
 <script setup>
-import ThreeExample from './ThreeExample.vue';
-import Tecnologies from './Tecnologies.vue'
 import Projects from './Projects.vue'
+import Projects2 from './Projects2.vue';
 import Contact from './Contact.vue';
-import { ref } from 'vue';
-const bollets = [
-      { id: 1, value: 'bollet-1', checked: ref(false) },
-      { id: 2, value: 'bollet-2', checked: ref(false) },
-      { id: 3, value: 'bollet-3', checked: ref(false) },
-      { id: 4, value: 'bollet-4', checked: ref(false) },
-      { id: 5, value: 'bollet-5', checked: ref(false) }
-    ];
-const showView = ref(true);
-
-function changeView(bool){
-    console.log('e :>> ', bool);
-    showView.value = !showView.value
-    bool.checked.value = !bool.checked.value
-}
 
 </script>
 <template>
+    <div class="container__test">
     <div class="main__container">
-        <section class="main_left">
-            <img class="main__image" src="../assets/images/about3.jpg" alt="">
-        </section>
-        <!-- <section class="main__left">
-                <div class="box">
-                    <div class="ribbon">
-                        Premio
-                    </div>
-                </div>
+        <!-- <section class="main_left">
+            <img class="main__image" src="../assets/images/international-154119_1280.png" alt="">
         </section> -->
         <section class="main__about">
             <h2 class="description__about--title">Hi there!</h2>
@@ -40,7 +18,10 @@ function changeView(bool){
             </button>
         </section>
     </div>
-    <Tecnologies />
+</div>
+
+    <!-- <Tecnologies /> -->
+    <Projects2 />
     <Projects />
     <Contact />
 </template>
@@ -48,13 +29,23 @@ function changeView(bool){
 .main__container{
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     padding: 2rem;
-  /* background: -webkit-linear-gradient(45deg, #110F2A, #12438B 100%); */
-    background: #fff;
+  background: -webkit-linear-gradient(90deg, #110F2A, #1D89E4 100%);
+  /* 1D89E4: Un tono de azul oscuro ligeramente más apagado.
+#17689A: Un azul marino profundo.
+#15577D */
+    /* background: #16171C; */
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.container__test{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #110F2A;
 }
 .main__image{
     width: 50rem;
@@ -160,12 +151,11 @@ input[type="checkbox"]:checked::before {
 .main__about{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 80%;
+    width: 80%;
 }
 
 .description__about--title{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     /* border-bottom: 1px solid #28AFFA; */
     
     font-size: 3.5rem;
@@ -174,6 +164,7 @@ input[type="checkbox"]:checked::before {
 }
 .description__about--description{
     font-size: 2rem;
+    color: #fff;
 }
 .description__about--contact{
     height: 4rem;
@@ -182,10 +173,12 @@ input[type="checkbox"]:checked::before {
     border-radius: 2rem;
     border: none;
     font-size: 1.7rem;
-    color: #110F2A;
+    color: #fff;
     background: transparent;
     box-shadow: 0 0 10px #00DFC2;
-
+}
+.description__about--contact:hover{
+    box-shadow: 0 0 10px #00ff95, 0 0 40px #00ff95;
 }
 
 .hexagono{

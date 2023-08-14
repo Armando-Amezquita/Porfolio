@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "scrollmagic": "^2.0.8",
     "three": "^0.154.0",
     "vite-plugin-sass": "^0.1.0",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

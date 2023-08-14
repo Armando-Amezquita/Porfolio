@@ -21,7 +21,9 @@ function clickd(e){
           <span class="left__description">Creando el futuro</span>
           <div class="radar-container">
             <button @click="clickd" class="radar-button">Cv</button>
-            <button class="contact">Contact me</button>
+            <router-link to="/contact">
+              <button class="contact">Contact me</button>
+            </router-link>
             <div class="radar-circle"></div>
           </div>
         </section>
@@ -35,15 +37,15 @@ function clickd(e){
           <div class="header__container--description">
             <p class="description--title">Armando Amezquita</p>
             <ul class="desciption--media">
-              <li>
+              <a href="https://www.linkedin.com/in/armando-amezquita-molina/" target="_blank">
                 <img class="icon-media" src="../assets/icons/2024667_email_emails_mail_message_icon.png" alt="">
-              </li>
-              <li>
+              </a >
+              <a href="/">
                 <img class="icon-media" src="../assets/icons/5279114_linkedin_network_social network_linkedin logo_icon.png" alt="">
-              </li>
-              <li>
+              </a >
+              <a href="/">
                 <img class="icon-media" src="../assets/icons/107161_circle_github_icon.png" alt="">
-              </li>
+              </a >
             </ul>
           </div>
         </section>
