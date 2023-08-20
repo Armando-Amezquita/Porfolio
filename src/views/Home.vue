@@ -1,5 +1,6 @@
 <script setup>
 import NavBar from '../components/NavBar.vue';
+import NavbarT from '../components/NavbarT.vue';
 import Main from '../components/Main.vue';
 
 function clickd(e){
@@ -12,6 +13,7 @@ function clickd(e){
 <template>
   <div class="container__app">
   <NavBar />
+  <NavbarT />
   <header>
     <div class="header__subcontainer">
       <div class="header__container">    
@@ -44,7 +46,7 @@ function clickd(e){
                 <img class="icon-media" src="../assets/icons/5279114_linkedin_network_social network_linkedin logo_icon.png" alt="">
               </a >
               <a href="/">
-                <img class="icon-media" src="../assets/icons/107161_circle_github_icon.png" alt="">
+                <img class="icon-media" src="../assets/icons/github.png" alt="">
               </a >
             </ul>
           </div>
